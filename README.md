@@ -29,6 +29,34 @@ Two datasets, movies.csv and ratings.csv, have been uploaded and formatted to us
 
 *Ratings are made on a 5-star scale, with half-star increments (0.5 stars - 5.0 stars).*
 
+## Design
+
+![image](https://github.com/user-attachments/assets/3b172d9b-fc76-466b-b315-9ae0545456ec)
+
+The system is designed to accept data in tabular format. 3 columns are loaded to Surprise: user ID, movie ID and rating. 
+
+![image](https://github.com/user-attachments/assets/eac02538-32fb-444d-97f5-b2febf02a06b)
+
+Uploaded data will be transformed into a user-item matrix. 
+
+![image](https://github.com/user-attachments/assets/ac671ec4-dfa0-481a-b270-a4913acd7f62)
+
+The matrix is used to train machine learning algorithms. Predictions will include estimated rating of movies for each user.
+
+![image](https://github.com/user-attachments/assets/a624d9e5-641b-4c98-84ad-3e9e8992fee2)
+
+Python function is used to extract movie ID of top 10 recommendations. 
+
+![image](https://github.com/user-attachments/assets/deeb1c25-3dc6-45c5-9335-d4837df99381)
+
+Another Python function is used to extract the movie title to be displayed in Gradio interface. 
+
+## Coding Highlights
+
+The codes are organized in the following sequence. 
+
+![image](https://github.com/user-attachments/assets/c6f60fed-2985-432e-8e12-fd10fcb43d41)
+
 ## Modeling and Evaluation
 
 Surprise simplifies the process of building and evaluation of recommendation system. It contains a varieties of prediction algorithms. It also provide tools to evaluate, analyze and compare the algorithms' performance. 
