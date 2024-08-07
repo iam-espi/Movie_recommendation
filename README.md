@@ -51,6 +51,8 @@ Python function is used to extract movie ID of top 10 recommendations.
 
 Another Python function is used to extract the movie title to be displayed in Gradio interface. 
 
+![image](https://github.com/user-attachments/assets/b3d75738-41a8-4da9-bedf-478abc743486)
+
 ## Coding Highlights
 
 The codes are organized in the following sequence. 
